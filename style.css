@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(128, 128, 212);
+  width: 60vw;
+  height: 60vh;
+  margin: auto;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+h1 {
+}
+
+form {
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  font-size: 1.3rem;
+  margin: 1rem;
+}
+
+input {
+  font-size: 1.1rem;
+  border-radius: 0.6rem;
+
+  border: none;
+  outline: none;
+  padding: 0.3rem;
+  width: 12rem;
+}
+
+label {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+button {
+  /* background: blue; */
+  font-size: 1.5rem;
+  border-radius: 0.6rem;
+  padding: 0.1rem 0.6rem;
+
+  outline: none;
+  border: transparent;
+}
+.large {
+  font-size: 3rem;
+  color: rgb(206, 34, 34);
+}
+p {
+  font-size: 2rem;
+}
+.remainingGuess {
+  font-size: 1.5rem;
+}
